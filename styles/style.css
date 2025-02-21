@@ -68,7 +68,7 @@
   padding-block: 3px;
   padding-inline-start: 10px;
   font-size: 18px;
-  line-height: 1.21; 
+  line-height: 1.21;
   font-variation-settings: "wght" var(--font-weight-bold, 700);
   border: 2px solid var(--border-color, #000);
 }
