@@ -15,16 +15,16 @@
   </head>
   <body class="page">
     <header class="header page__item-width">
-        <h1>&lt;/HTML&gt;</h1>
-        <h2>закрывающий тег</h2>
+        <h1 class="header__title">&lt;/HTML&gt;</h1>
+        <p class="header__paragraph">закрывающий тег</p>
     </header>
     <main class="page__item-width">
       <ul class="card-list">
         <li class="card-list__item">
           <article class="card">
-            <h3 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h3>
+            <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
             <div class="card__images-container">
-              <img class="card__image preparation" src="./images/image-1.png" alt="Восьмибитная картинка авто для путешествий">
+              <img class="card__image no-filter" src="./images/image-1.png" loading="lazy" alt="Восьмибитная картинка авто для путешествий">
               <span class="card__label">&lt;/HTML&gt;</span>
             </div>
             <div class="card__text">
@@ -32,8 +32,8 @@
               <p>Свободного времени тогда еще было предостаточно. Два дня любимой работы сменяли два дня безмятежного отдыха.</p>
             </div>
             <div class="card__buttons">
-              <button class="card__icon-button">
-                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button class="card__icon-button" type="button" aria-label="Лайк-сердечко">
+                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--like-contour-color, #000)"/>
                     <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="transparent"/>
@@ -42,7 +42,7 @@
                   </g>
                 </svg>
               </button>
-              <button class="card__like-button action-button-style">
+              <button class="card__like-button action-button-style" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -50,9 +50,9 @@
         </li>
         <li class="card-list__item">
           <article class="card">
-            <h3 class="card__title">1 спринт: Я — чистый лист</h3>
+            <h2 class="card__title">1 спринт: Я — чистый лист</h2>
             <div class="card__images-container">
-              <img class="card__image clean-sheet" src="./images/image-2.webp" alt="Фото листа бумаги лежащего на зелени">
+              <img class="card__image saturate" src="./images/image-2.webp" loading="lazy" alt="Фото листа бумаги лежащего на зелени">
               <span class="card__label">&lt;/HTML&gt;</span>
             </div>
             <div class="card__text">
@@ -60,8 +60,8 @@
               <p>На самом деле стоял другой вопрос: "будет ли мне интересно этим заниматься?<br>И сейчас, набирая это текст, могу с уверенностью утвердительно на него ответить"</p>
             </div>
             <div class="card__buttons">
-              <button class="card__icon-button">
-                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button class="card__icon-button" type="button">
+                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--like-contour-color, #000)"/>
                     <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="transparent"/>
@@ -70,7 +70,7 @@
                   </g>
                 </svg>
               </button>
-              <button class="card__like-button action-button-style">
+              <button class="card__like-button action-button-style" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -78,9 +78,9 @@
         </li>
         <li class="card-list__item">
           <article class="card">
-            <h3 class="card__title">1 спринт: А если не получится?</h3>
+            <h2 class="card__title">1 спринт: А если не получится?</h2>
             <div class="card__images-container">
-              <img class="card__image doubts" src="./images/image-3.webp" alt="Черно-белый сюрриалистический рисунок матрешки из трех голов">
+              <img class="card__image invert" src="./images/image-3.webp" loading="lazy" alt="Черно-белый сюрриалистический рисунок матрешки из трех голов">
               <span class="card__label">&lt;CSS&gt;</span>
             </div>
             <div class="card__text">
@@ -88,8 +88,8 @@
               <p>Грустно, конечно, когда что-то не получается, но каждый доделанный проект с лихвой компенсирует все будничные тяготы фронтенда позитивными эмоциями и уверенностью в своих способностях.</p>
             </div>
             <div class="card__buttons">
-              <button class="card__icon-button">
-                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button class="card__icon-button" type="button">
+                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--like-contour-color, #000)"/>
                     <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="transparent"/>
@@ -98,7 +98,7 @@
                   </g>
                 </svg>
               </button>
-              <button class="card__like-button action-button-style">
+              <button class="card__like-button action-button-style" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -106,9 +106,9 @@
         </li>
         <li class="card-list__item">
           <article class="card">
-            <h3 class="card__title">2 спринт: Погоня за идеалом</h3>
+            <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
             <div class="card__images-container">
-              <img class="card__image perfect" src="./images/image-4.webp" alt="Крупный план главной героини - брюнетки из кинофильма Субстанция">
+              <img class="card__image saturate-brightness" src="./images/image-4.webp" loading="lazy" alt="Крупный план главной героини - брюнетки из кинофильма Субстанция">
               <span class="card__label">&lt;desigions&gt;</span>
             </div>
             <div class="card__text">
@@ -116,8 +116,8 @@
               <p>К сожалению, перфекционизм это про меня. Тратится огромное количество энергии, чтобы сделать идеально, но начинаю подозревать, что идеально нужно не всем и не всегда. Перфекционизм может сыграть злую шутку с теми кто к нему склонен. Надеюсь я найду свою золотую середину.</p>
             </div>
             <div class="card__buttons">
-              <button class="card__icon-button">
-                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button class="card__icon-button" type="button">
+                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--like-contour-color, #000)"/>
                     <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="transparent"/>
@@ -126,7 +126,7 @@
                   </g>
                 </svg>
               </button>
-              <button class="card__like-button action-button-style">
+              <button class="card__like-button action-button-style" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -134,9 +134,9 @@
         </li>
         <li class="card-list__item">
           <article class="card">
-            <h3 class="card__title">2 спринт: О тех, кто рядом</h3>
+            <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
             <div class="card__images-container">
-              <img class="card__image support" src="./images/image-5.webp" alt="Группа людей поддерживают друга взбирающегося по скале">
+              <img class="card__image saturate-contrast" src="./images/image-5.webp" loading="lazy" alt="Группа людей поддерживают друга взбирающегося по скале">
               <span class="card__label">&lt;care&gt;</span>
             </div>
             <div class="card__text">
@@ -144,8 +144,8 @@
               <p>Действительно круто, когда можно обсудить непонятные вещи и посмотреть на успехи и трудности других учеников, задать вопрос или самому помочь кому-то. Мне очень нравится то, как яндекс-практикум организовал коммуникацию.<br>Пользуясь случаем, передаю привет своему потоку и всему преподавательскому составу, так сказать, от младших чинов до старших и каждому кто сейчас это читает. Счастья Вам, здоровья, любви и достатка:&#41;</p>
             </div>
             <div class="card__buttons">
-              <button class="card__icon-button">
-                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button class="card__icon-button" type="button">
+                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--like-contour-color, #000)"/>
                     <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="transparent"/>
@@ -154,7 +154,7 @@
                   </g>
                 </svg>
               </button>
-              <button class="card__like-button action-button-style">
+              <button class="card__like-button action-button-style" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -162,9 +162,9 @@
         </li>
         <li class="card-list__item">
           <article class="card">
-            <h3 class="card__title">3 спринт: Обходные стратегии</h3>
+            <h2 class="card__title">3 спринт: Обходные стратегии</h2>
             <div class="card__images-container">
-              <img class="card__image bypass" src="./images/image-6.webp" alt="Шахматная доска с фигурами">
+              <img class="card__image blur" src="./images/image-6.webp" loading="lazy" alt="Шахматная доска с фигурами">
               <span class="card__label">&lt;support&gt;</span>
             </div>
             <div class="card__text">
@@ -172,8 +172,8 @@
               <p>Я знал о существовании неформальной группы в телеграмме, организованной старшими студентами, но до третьего спринта практика довалась достаточно легко, и на свои пару вопросов обходился помощью из местной "Пачки".<br>Все изменилось в третьем спринте. Обилие теории в нем неприятно удивило, из пройденных четырех третий был самый огромный. Вопросов по практике стало больше и я с удовольствием начал захаживать еще и телеграмчик.</p>
             </div>
             <div class="card__buttons">
-              <button class="card__icon-button">
-                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button class="card__icon-button" type="button">
+                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--like-contour-color, #000)"/>
                     <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="transparent"/>
@@ -182,7 +182,7 @@
                   </g>
                 </svg>
               </button>
-              <button class="card__like-button action-button-style">
+              <button class="card__like-button action-button-style" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -190,9 +190,9 @@
         </li>
         <li class="card-list__item">
           <article class="card">
-            <h3 class="card__title">3 спринт: Когда опускаются руки</h3>
+            <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
             <div class="card__images-container">
-              <img class="card__image concentration" src="./images/image-7.webp" alt="Конатоходец между небоскребами">
+              <img class="card__image sepia" src="./images/image-7.webp" loading="lazy" alt="Конатоходец между небоскребами">
               <span class="card__label">&lt;lifes-style: none;&gt;</span>
             </div>
             <div class="card__text">
@@ -200,8 +200,8 @@
               <p>В нынешних реалиях свободным временем начинает пахнуть только когда получен зачет. Надеюсь у моей любимой хватит сил дождаться меня из этой цифровой армии, курса молодого бойца.</p>
             </div>
             <div class="card__buttons">
-              <button class="card__icon-button">
-                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button class="card__icon-button" type="button">
+                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--like-contour-color, #000)"/>
                     <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="transparent"/>
@@ -210,7 +210,7 @@
                   </g>
                 </svg>
               </button>
-              <button class="card__like-button action-button-style">
+              <button class="card__like-button action-button-style" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -218,9 +218,9 @@
         </li>
         <li class="card-list__item">
           <article class="card">
-            <h3 class="card__title">«Сейчас я здесь»</h3>
+            <h2 class="card__title">«Сейчас я здесь»</h2>
             <div class="card__images-container">
-              <img class="card__image way" src="./images/image-8.webp" alt="Вид с верху на едущую по дороге машину">
+              <img class="card__image contrast-opacity" src="./images/image-8.webp" loading="lazy" alt="Вид с верху на едущую по дороге машину">
               <span class="card__label">&lt;experience&gt;</span>
             </div>
             <div class="card__text">
@@ -228,8 +228,8 @@
               <p>Мне нравится то, чем я занимаюсь</p>
             </div>
             <div class="card__buttons">
-              <button class="card__icon-button">
-                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button class="card__icon-button" type="button">
+                <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--like-contour-color, #000)"/>
                     <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="transparent"/>
@@ -238,7 +238,7 @@
                   </g>
                 </svg>
               </button>
-              <button class="card__like-button action-button-style">
+              <button class="card__like-button action-button-style" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -246,7 +246,7 @@
         </li>
       </ul>
       <div class="floppy">
-        <button class="floppy__button action-button-style" onclick="window['dialog-id'].showModal()">
+        <button class="floppy__button action-button-style" type="button" onclick="window['dialog-id'].showModal()">
             <svg class="floppy__button-icon" viewBox="0 0 21 21">
               <use href="svg/floppy.svg#floppy"/>
             </svg>
@@ -256,8 +256,8 @@
           <svg class="floppy__dialog-icon" viewBox="0 0 21 21">
             <use href="svg/floppy.svg#floppy"/>
           </svg>
-          <h2 class="floppy__dialog-message">Вставьте дискету, чтобы продолжить</h2>
-          <button class="floppy__dialog-button-close action-button-style" type="submit" onclick="window['dialog-id'].close()">OK</button>
+          <p class="floppy__dialog-message">Вставьте дискету, чтобы продолжить</p>
+          <button class="floppy__dialog-button-close action-button-style" type="button" onclick="window['dialog-id'].close()">ok</button>
         </dialog>
       </div>
     </main>
