@@ -3,7 +3,7 @@
   --main-font: 'Inter';
   --accent-font: 'PressStart2P';
   --font-weight-normal: 400;
-  --font-weight-bold: 700; 
+  --font-weight-bold: 700;
   --page-item-width: clamp(375px, 100%, 700px);
   --border-color: #000;
   --label-shadow-color: #fff;
